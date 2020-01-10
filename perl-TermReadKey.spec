@@ -1,6 +1,6 @@
 Name:           perl-TermReadKey
 Version:        2.30
-Release:        10%{?dist}
+Release:        13%{?dist}
 Summary:        A perl module for simple terminal control
 
 Group:          Development/Libraries
@@ -58,6 +58,10 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Jan 12 2011 Marcela Mašláňová <mmaslano@redhat.com> - 2.30-13
+- rebuilt for 6.1
+- Related: rhbz#665415
+
 * Mon Mar 15 2010 Marcela Mašláňová <mmaslano@redhat.com> - 2.30-10
 - remove the last test, which lead to hang-up of test suite in mock
  Test are non standart, it was need a patch.
