@@ -1,6 +1,6 @@
 Name:           perl-TermReadKey
 Version:        2.30
-Release:        18%{?dist}
+Release:        20%{?dist}
 Summary:        A perl module for simple terminal control
 Group:          Development/Libraries
 License:        (Copyright only) and (Artistic or GPL+)
@@ -48,6 +48,12 @@ make test
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2.30-20
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.30-19
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 2.30-18
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
